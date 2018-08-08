@@ -1,5 +1,5 @@
 {
-  "ac_mlp_shared_cartpole": {
+  "ac_mlp_shared_pendulum": {
     "agent": [{
       "name": "ActorCritic",
       "algorithm": {
@@ -49,7 +49,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000
@@ -81,7 +81,7 @@
       }]
     }
   },
-  "ac_mlp_separate_cartpole": {
+  "ac_mlp_separate_pendulum": {
     "agent": [{
       "name": "ActorCritic",
       "algorithm": {
@@ -131,7 +131,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000
@@ -163,7 +163,7 @@
       }]
     }
   },
-  "ac_rnn_shared_cartpole": {
+  "ac_rnn_shared_pendulum": {
     "agent": [{
       "name": "ActorCritic",
       "algorithm": {
@@ -216,7 +216,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000
@@ -248,7 +248,7 @@
       }]
     }
   },
-  "ac_rnn_separate_cartpole": {
+  "ac_rnn_separate_pendulum": {
     "agent": [{
       "name": "ActorCritic",
       "algorithm": {
@@ -301,7 +301,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000

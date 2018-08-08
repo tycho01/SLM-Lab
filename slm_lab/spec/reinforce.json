@@ -1,5 +1,5 @@
 {
-  "reinforce_mlp_cartpole": {
+  "reinforce_mlp_pendulum": {
     "agent": [{
       "name": "Reinforce",
       "algorithm": {
@@ -40,7 +40,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000
@@ -69,7 +69,7 @@
       }]
     }
   },
-  "reinforce_rnn_cartpole": {
+  "reinforce_rnn_pendulum": {
     "agent": [{
       "name": "Reinforce",
       "algorithm": {
@@ -113,7 +113,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000

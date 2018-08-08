@@ -1,5 +1,5 @@
 {
-  "a2c_mlp_shared_cartpole": {
+  "a2c_mlp_shared_pendulum": {
     "agent": [{
       "name": "A2C",
       "algorithm": {
@@ -49,7 +49,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000
@@ -81,7 +81,7 @@
       }]
     }
   },
-  "a2c_mlp_separate_cartpole": {
+  "a2c_mlp_separate_pendulum": {
     "agent": [{
       "name": "A2C",
       "algorithm": {
@@ -131,7 +131,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000
@@ -163,7 +163,7 @@
       }]
     }
   },
-  "a2c_rnn_shared_cartpole": {
+  "a2c_rnn_shared_pendulum": {
     "agent": [{
       "name": "A2C",
       "algorithm": {
@@ -216,7 +216,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000
@@ -248,7 +248,7 @@
       }]
     }
   },
-  "a2c_rnn_separate_cartpole": {
+  "a2c_rnn_separate_pendulum": {
     "agent": [{
       "name": "A2C",
       "algorithm": {
@@ -301,7 +301,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000

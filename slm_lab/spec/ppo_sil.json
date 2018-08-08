@@ -1,5 +1,5 @@
 {
-  "ppo_sil_mlp_shared_cartpole": {
+  "ppo_sil_mlp_shared_pendulum": {
     "agent": [{
       "name": "PPOSIL",
       "algorithm": {
@@ -51,7 +51,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000
@@ -88,7 +88,7 @@
       }]
     }
   },
-  "ppo_sil_mlp_separate_cartpole": {
+  "ppo_sil_mlp_separate_pendulum": {
     "agent": [{
       "name": "PPOSIL",
       "algorithm": {
@@ -140,7 +140,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000
@@ -177,7 +177,7 @@
       }]
     }
   },
-  "ppo_sil_rnn_shared_cartpole": {
+  "ppo_sil_rnn_shared_pendulum": {
     "agent": [{
       "name": "PPOSIL",
       "algorithm": {
@@ -232,7 +232,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000
@@ -269,7 +269,7 @@
       }]
     }
   },
-  "ppo_sil_rnn_separate_cartpole": {
+  "ppo_sil_rnn_separate_pendulum": {
     "agent": [{
       "name": "PPOSIL",
       "algorithm": {
@@ -324,7 +324,7 @@
       }
     }],
     "env": [{
-      "name": "CartPole-v0",
+      "name": "Pendulum-v0",
       "max_timestep": null,
       "max_episode": 500,
       "save_epi_frequency": 1000
