@@ -100,7 +100,7 @@
         "training_epoch": 4,
         "training_frequency": 32,
         "training_min_timestep": 10,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "Replay",

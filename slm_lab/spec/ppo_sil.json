@@ -20,7 +20,7 @@
         "training_frequency": 1,
         "training_batch_epoch": 4,
         "training_epoch": 8,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicyReplay",
@@ -111,7 +111,7 @@
         "training_frequency": 1,
         "training_batch_epoch": 8,
         "training_epoch": 8,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicyReplay",
@@ -202,7 +202,7 @@
         "training_frequency": 1,
         "training_batch_epoch": 8,
         "training_epoch": 8,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicySeqReplay",
@@ -296,7 +296,7 @@
         "training_frequency": 1,
         "training_batch_epoch": 8,
         "training_epoch": 8,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicySeqReplay",
@@ -390,7 +390,7 @@
         "training_frequency": 1,
         "training_batch_epoch": 4,
         "training_epoch": 8,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicyReplay",
@@ -481,7 +481,7 @@
         "training_frequency": 1,
         "training_batch_epoch": 8,
         "training_epoch": 8,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicyReplay",
@@ -572,7 +572,7 @@
         "training_frequency": 1,
         "training_batch_epoch": 8,
         "training_epoch": 8,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicySeqReplay",
@@ -666,7 +666,7 @@
         "training_frequency": 1,
         "training_batch_epoch": 8,
         "training_epoch": 8,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicySeqReplay",

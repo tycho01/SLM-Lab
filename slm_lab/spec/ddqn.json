@@ -15,7 +15,7 @@
         "training_epoch": 4,
         "training_frequency": 32,
         "training_min_timestep": 10,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "Replay",
@@ -98,7 +98,7 @@
         "training_epoch": 4,
         "training_frequency": 32,
         "training_min_timestep": 10,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "Replay",
@@ -181,7 +181,7 @@
         "training_epoch": 4,
         "training_frequency": 32,
         "training_min_timestep": 10,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "SeqReplay",
@@ -267,7 +267,7 @@
         "training_epoch": 4,
         "training_frequency": 32,
         "training_min_timestep": 10,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "SeqReplay",
@@ -353,7 +353,7 @@
         "training_epoch": 4,
         "training_frequency": 100,
         "training_min_timestep": 100,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "AtariReplay",
@@ -430,7 +430,7 @@
         "training_epoch": 4,
         "training_frequency": 100,
         "training_min_timestep": 100,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "AtariReplay",

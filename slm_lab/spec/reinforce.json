@@ -14,7 +14,7 @@
         "add_entropy": true,
         "entropy_coef": 0.01,
         "training_frequency": 1,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicyReplay"
@@ -84,7 +84,7 @@
         "add_entropy": true,
         "entropy_coef": 0.01,
         "training_frequency": 1,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicySeqReplay"
@@ -157,7 +157,7 @@
         "add_entropy": true,
         "entropy_coef": 0.01,
         "training_frequency": 1,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicyReplay"
@@ -227,7 +227,7 @@
         "add_entropy": true,
         "entropy_coef": 0.01,
         "training_frequency": 1,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicySeqReplay"
@@ -300,7 +300,7 @@
         "add_entropy": true,
         "entropy_coef": 0.01,
         "training_frequency": 1,
-        "normalize_state": true
+        "normalize_state": false
       },
       "memory": {
         "name": "OnPolicyReplay"
